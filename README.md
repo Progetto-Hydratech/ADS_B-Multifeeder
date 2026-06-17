@@ -48,7 +48,6 @@ FR24 requires a **sharing key** (16-character string) tied to your feeder. The k
 **Step 1** — Send an email to **support@fr24.com** with:
 - Your name
 - Your antenna coordinates (latitude, longitude, altitude in feet)
-- A brief description of your setup (RTL-SDR + Docker, Linux, etc.)
 
 **Step 2** — FR24 support will reply with your sharing key.
 
