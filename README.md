@@ -1,5 +1,7 @@
 # ADS-B Multifeeder
 
+> Parte del progetto [HydraPlanes](https://github.com/Sebaf-26/plane-tracker) — radar ADS-B con interfaccia web, storico voli e rilevamento callsign italiani speciali.
+
 Docker Compose stack to feed your ADS-B data to **FlightRadar24**, **FlightAware**, and **ADS-B Exchange** simultaneously, starting from any Beast-compatible ADS-B receiver (e.g. [ultrafeeder](https://github.com/sdr-enthusiasts/docker-adsb-ultrafeeder)).
 
 ---
