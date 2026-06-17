@@ -43,19 +43,21 @@ docker compose up -d
 
 ### FlightRadar24
 
-FR24 requires a **sharing key** (16-character string) tied to your feeder.
+FR24 requires a **sharing key** (16-character string) tied to your feeder. The key is assigned manually by the FR24 support team.
 
-**Step 1** — Go to [flightradar24.com/share-your-data](https://www.flightradar24.com/share-your-data) and create a free account.
+**Step 1** — Send an email to **support@fr24.com** with:
+- Your name
+- Your antenna coordinates (latitude, longitude, altitude in feet)
+- A brief description of your setup (RTL-SDR + Docker, Linux, etc.)
 
-**Step 2** — Once you have an account, your sharing key is available at:
-[flightradar24.com/account/data-sharing](https://www.flightradar24.com/account/data-sharing)
+**Step 2** — FR24 support will reply with your sharing key.
 
 **Step 3** — Set the key in your `.env`:
 ```
 FR24_KEY=a1b2c3d4e5f6g7h8
 ```
 
-> ⚠️ One sharing key = one feeder at a time. If you have multiple receivers, request additional keys from FR24 support.
+> ⚠️ One sharing key = one feeder at a time. If you have multiple receivers, request additional keys from support@fr24.com.
 
 > ℹ️ The FR24 container requires GMT timezone internally — the `TZ` variable is ignored for FR24 (this is normal).
 
